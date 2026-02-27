@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<title>آرمان دوستی | وبسایت شخصی</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --bg:#f5f7fb;
+  --primary:#1e2a44;
+  --accent:#3b82f6;
+  --card:#ffffff;
+  --text:#1f2937;
+  --muted:#6b7280;
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Vazirmatn',sans-serif;
+}
+
+body{
+  background:var(--bg);
+  color:var(--text);
+  line-height:1.9;
+}
+
+header{
+  background:linear-gradient(120deg,#1e2a44,#2f3f66);
+  color:#fff;
+  padding:80px 20px 60px;
+  text-align:center;
+}
+
+header h1{
+  font-size:2.8rem;
+}
+
+header p{
+  margin-top:12px;
+  opacity:0.9;
+}
+
+nav{
+  margin-top:35px;
+  display:flex;
+  justify-content:center;
+  gap:20px;
+  flex-wrap:wrap;
+}
+
+nav a{
+  color:#fff;
+  text-decoration:none;
+  font-size:0.95rem;
+  padding:6px 14px;
+  border-bottom:2px solid transparent;
+  transition:.3s;
+}
+
+nav a:hover{
+  border-color:var(--accent);
+}
+
+section{
+  max-width:900px;
+  margin:60px auto;
+  padding:0 20px;
+}
+
+.card{
+  background:var(--card);
+  border-radius:16px;
+  padding:35px;
+  box-shadow:0 15px 35px rgba(0,0,0,0.08);
+}
+
+.card h2{
+  margin-bottom:20px;
+  color:var(--primary);
+}
+
+ul{
+  list-style:none;
+}
+
+ul li{
+  margin-bottom:12px;
+  color:var(--muted);
+}
+
+/* شغل */
+.quotes{
+  margin-top:25px;
+  display:grid;
+  gap:15px;
+}
+
+.quote{
+  background:#f1f5f9;
+  border-right:4px solid var(--accent);
+  padding:15px 18px;
+  border-radius:10px;
+  font-style:italic;
+}
+
+/* علایق */
+.interests{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:20px;
+}
+
+.interest{
+  background:#f8fafc;
+  border-radius:14px;
+  padding:25px;
+  text-align:center;
+  transition:.3s;
+}
+
+.interest:hover{
+  transform:translateY(-5px);
+}
+
+.interest span{
+  font-size:2.2rem;
+  display:block;
+  margin-bottom:12px;
+}
+
+/* ارتباط */
+.contact p{
+  margin-bottom:10px;
+  color:var(--muted);
+}
+
+footer{
+  text-align:center;
+  padding:40px 20px;
+  color:var(--muted);
+  font-size:0.9rem;
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>آرمان دوستی</h1>
+  <p>دانشجوی ارشد تکنولوژی آموزشی | مربی پرورشی</p>
+
+  <nav>
+    <a href="#about">مشخصات</a>
+    <a href="#education">تحصیلات</a>
+    <a href="#career">شغل</a>
+    <a href="#interests">علایق</a>
+    <a href="#contact">ارتباط</a>
+  </nav>
+</header>
+
+<section id="about">
+  <div class="card">
+    <h2>مشخصات</h2>
+    <ul>
+      <li>👤 نام: آرمان دوستی</li>
+      <li>🎓 دانشجوی کارشناسی ارشد تکنولوژی آموزشی</li>
+      <li>💼 مربی پرورشی</li>
+    </ul>
+  </div>
+</section>
+
+<section id="education">
+  <div class="card">
+    <h2>تحصیلات</h2>
+    <ul>
+      <li>🎓 دانشجوی کارشناسی ارشد تکنولوژی آموزشی</li>
+      <li>📘 علاقه‌مند به بهبود یادگیری با رویکردهای نوین آموزشی</li>
+    </ul>
+  </div>
+</section>
+
+<section id="career">
+  <div class="card">
+    <h2>شغل و نگاه تربیتی</h2>
+    <ul>
+      <li>🧑‍🏫 مربی پرورشی</li>
+      <li>🤝 ارتباط مؤثر و صمیمی با دانش‌آموزان</li>
+    </ul>
+
+    <div class="quotes">
+      <div class="quote">«پرورش، یعنی همراهی؛ نه هدایت از بالا.»</div>
+      <div class="quote">«دانش‌آموز وقتی رشد می‌کند که شنیده شود.»</div>
+      <div class="quote">«گفت‌وگو، آغاز تربیت است.»</div>
+    </div>
+  </div>
+</section>
+
+<section id="interests">
+  <div class="card">
+    <h2>علایق</h2>
+
+    <div class="interests">
+      <div class="interest">
+        <span>💻</span>
+        <h3>فناوری</h3>
+        <p>علاقه‌مند به فناوری و کاربرد آن در آموزش</p>
+      </div>
+
+      <div class="interest">
+        <span>⚽</span>
+        <h3>فوتبال</h3>
+        <p>علاقه‌مند به پیگیری فوتبال و اخبار آن به‌عنوان سرگرمی</p>
+      </div>
+
+      <div class="interest">
+        <span>📚</span>
+        <h3>کتاب</h3>
+        <p>علاقه‌مند به ادبیات داستانی و روایت‌های عمیق انسانی</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="card contact">
+    <h2>ارتباط</h2>
+    <p>📧 ایمیل: <strong>arman.dosti@email.com</strong></p>
+    <p>📞 تماس: <strong>0912 000 0000</strong></p>
+  </div>
+</section>
+
+<footer>
+  © 2026 — وبسایت شخصی آرمان دوستی
+</footer>
+
+</body>
+</html>
